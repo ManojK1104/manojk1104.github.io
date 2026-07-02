@@ -10,206 +10,363 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <h2>Manoj Kushwaha</h2>
-        </div>
+    <!-- ================= NAVBAR ================= -->
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header class="header">
+
+        <a href="#" class="logo">
+            Manoj<span>.</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
         </nav>
+
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
 
-        <div class="hero-text">
+
+    <!-- ================= HOME ================= -->
+
+    <section class="home" id="home">
+
+        <div class="home-content">
 
             <h3>Hello, I'm</h3>
 
             <h1>Manoj Kushwaha</h1>
 
-            <h2>Data Analyst | Data Science Enthusiast</h2>
+            <h2>
+                Data Analyst |
+                Power BI Developer |
+                Machine Learning Enthusiast
+            </h2>
 
             <p>
-                Aspiring Data Science & Analytics professional passionate about
-                Python, SQL, Power BI, Machine Learning, and Business Intelligence.
-                I transform raw data into meaningful insights and interactive dashboards.
+                Passionate about transforming raw data into actionable insights.
+                Skilled in Python, SQL, Power BI, Tableau, Machine Learning,
+                and Business Intelligence to solve real-world business problems.
             </p>
 
-            <div class="buttons">
-                <a href="#projects" class="btn">View Projects</a>
-                <a href="manoj_resume.pdf" class="btn btn-outline" download>Download Resume</a>
+            <div class="btn-box">
+                <a href="#projects">View Projects</a>
+                <a href="resume/Manoj_Kushwaha_Resume.pdf" download>Download Resume</a>
+            </div>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/ManojK1104" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://linkedin.com/in/manoj-kushwaha-5840a428b" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:manojrkushwaha85@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
             </div>
 
         </div>
 
-        <div class="hero-image">
-            <img src="images/profile.png" alt="Profile">
+        <div class="home-image">
+
+            <img src="images/profile.png" alt="Profile Image">
+
         </div>
 
     </section>
 
-    <!-- About -->
+
+
+    <!-- ================= ABOUT ================= -->
+
     <section id="about">
 
-        <h2>About Me</h2>
+        <h2 class="heading">About Me</h2>
 
         <p>
-            I'm a Computer Engineering student from Mumbai with a strong interest in
-            Data Analytics, Business Intelligence, and Machine Learning.
-            I enjoy solving real-world business problems through data visualization,
-            predictive analytics, and dashboard development.
+            I'm an aspiring Data Analyst and Data Science enthusiast currently pursuing
+            Computer Engineering. I specialize in transforming complex datasets into
+            meaningful business insights using Python, SQL, Power BI, Tableau, and
+            Machine Learning.
+
+            My passion lies in data visualization, predictive analytics,
+            business intelligence, dashboard development, and solving real-world
+            analytical problems through data-driven decision making.
         </p>
 
     </section>
 
-    <!-- Skills -->
+
+
+    <!-- ================= SKILLS ================= -->
+
     <section id="skills">
 
-        <h2>Technical Skills</h2>
+        <h2 class="heading">Technical Skills</h2>
 
-        <div class="skill-grid">
+        <div class="skills-container">
 
             <div class="skill-card">
-                <i class="fa-brands fa-python"></i>
+                <i class="fab fa-python"></i>
                 <h3>Python</h3>
             </div>
 
             <div class="skill-card">
-                <i class="fa-solid fa-database"></i>
+                <i class="fas fa-database"></i>
                 <h3>SQL</h3>
             </div>
 
             <div class="skill-card">
-                <i class="fa-solid fa-chart-column"></i>
+                <i class="fas fa-chart-line"></i>
                 <h3>Power BI</h3>
             </div>
 
             <div class="skill-card">
-                <i class="fa-solid fa-table"></i>
+                <i class="fas fa-chart-pie"></i>
                 <h3>Tableau</h3>
             </div>
 
             <div class="skill-card">
-                <i class="fa-solid fa-brain"></i>
+                <i class="fas fa-brain"></i>
                 <h3>Machine Learning</h3>
             </div>
 
             <div class="skill-card">
-                <i class="fa-solid fa-chart-line"></i>
+                <i class="fas fa-code"></i>
+                <h3>Pandas</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-square-root-alt"></i>
+                <h3>NumPy</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-chart-bar"></i>
                 <h3>EDA</h3>
             </div>
 
             <div class="skill-card">
-                <i class="fa-solid fa-file-excel"></i>
+                <i class="fas fa-file-excel"></i>
                 <h3>Excel</h3>
             </div>
 
             <div class="skill-card">
-                <i class="fa-brands fa-github"></i>
-                <h3>Git & GitHub</h3>
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>PostgreSQL</h3>
             </div>
 
         </div>
 
     </section>
 
-    <!-- Projects -->
+
+
+    <!-- ================= PROJECTS ================= -->
+
     <section id="projects">
 
-        <h2>Projects</h2>
+        <h2 class="heading">Featured Projects</h2>
 
-        <div class="project-card">
+        <div class="project-container">
 
-            <h3>Shop Verse Fin-Tech Analytics Solution</h3>
+            <div class="project-card">
 
-            <p>
-                Developed an end-to-end analytics dashboard using Python, SQL,
-                Power BI, and DAX to monitor transactions, analyze payment methods,
-                and identify fraud patterns.
-            </p>
+                <img src="images/shopverse.png" alt="ShopVerse">
 
-            <p><strong>Tools:</strong> Python, SQL, Power BI, DAX</p>
+                <h3>ShopVerse FinTech Analytics</h3>
 
-        </div>
+                <p>
+                    Built an end-to-end analytics dashboard to monitor online
+                    payment transactions, analyze customer behavior,
+                    detect fraud, and visualize KPIs using Power BI and SQL.
+                </p>
 
-        <div class="project-card">
+                <h4>Tech Stack</h4>
 
-            <h3>Fundraising Business Intelligence Dashboard</h3>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Power BI</span>
+                <span>DAX</span>
 
-            <p>
-                Designed a Business Intelligence solution for fundraising campaign
-                analysis using SQL, Power BI, Tableau, Python, and DAX.
-            </p>
+                <div class="project-links">
+                    <a href="#">GitHub</a>
+                    <a href="#">Live Demo</a>
+                </div>
 
-            <p><strong>Tools:</strong> Python, SQL, Tableau, Power BI</p>
+            </div>
+
+
+
+            <div class="project-card">
+
+                <img src="images/fundraising.png" alt="Fundraising">
+
+                <h3>Fundraising BI Dashboard</h3>
+
+                <p>
+                    Designed an interactive Business Intelligence solution
+                    for donor analysis, campaign tracking,
+                    fundraising KPIs, and executive reporting.
+                </p>
+
+                <h4>Tech Stack</h4>
+
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Tableau</span>
+                <span>Power BI</span>
+
+                <div class="project-links">
+                    <a href="#">GitHub</a>
+                    <a href="#">Dashboard</a>
+                </div>
+
+            </div>
 
         </div>
 
     </section>
 
-    <!-- Education -->
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section id="certifications">
+
+        <h2 class="heading">Certifications</h2>
+
+        <div class="certificate-box">
+
+            <h3>Mastering Data Science & Data Analytics</h3>
+
+            <p>IT Vedant Pvt. Ltd.</p>
+
+            <h3>Python Programming</h3>
+
+            <h3>SQL</h3>
+
+            <h3>Power BI</h3>
+
+            <h3>Machine Learning</h3>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= EDUCATION ================= -->
+
     <section id="education">
 
-        <h2>Education</h2>
+        <h2 class="heading">Education</h2>
 
-        <div class="education-card">
+        <div class="education-box">
 
             <h3>B.E. Computer Engineering</h3>
 
             <p>University of Mumbai</p>
 
-            <span>2023 - 2027</span>
+            <p>2023 – 2027</p>
+
+            <hr>
+
+            <h3>Higher Secondary Certificate</h3>
+
+            <p>58.17%</p>
+
+            <hr>
+
+            <h3>Secondary School Certificate</h3>
+
+            <p>71.40%</p>
 
         </div>
 
     </section>
 
-    <!-- Contact -->
+
+
+    <!-- ================= CONTACT ================= -->
+
     <section id="contact">
 
-        <h2>Contact Me</h2>
+        <h2 class="heading">Let's Connect</h2>
 
-        <p><i class="fa-solid fa-envelope"></i> manojrkushwaha85@gmail.com</p>
+        <form>
 
-        <p><i class="fa-solid fa-phone"></i> +91 7709211406</p>
+            <input type="text" placeholder="Your Name">
 
-        <div class="social">
+            <input type="email" placeholder="Email Address">
 
-            <a href="https://github.com/ManojK1104" target="_blank">
-                <i class="fa-brands fa-github"></i>
+            <input type="text" placeholder="Subject">
+
+            <textarea rows="7" placeholder="Write your message"></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h3>Manoj Kushwaha</h3>
+
+        <p>Data Analyst | Power BI Developer | Machine Learning Enthusiast</p>
+
+        <div class="footer-icons">
+
+            <a href="https://github.com/ManojK1104">
+                <i class="fab fa-github"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/manoj-kushwaha-5840a428b" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
+            <a href="https://linkedin.com/in/manoj-kushwaha-5840a428b">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:manojrkushwaha85@gmail.com">
+                <i class="fas fa-envelope"></i>
             </a>
 
         </div>
 
-    </section>
-
-    <!-- Footer -->
-    <footer>
-
-        <p>© 2026 Manoj Kushwaha | Data Analyst Portfolio</p>
+        <p>© 2026 Manoj Kushwaha. All Rights Reserved.</p>
 
     </footer>
 
